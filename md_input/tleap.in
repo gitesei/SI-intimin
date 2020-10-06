@@ -1,0 +1,5 @@
+source leaprc.protein.ff14SB
+set default PBRadii mbondi3
+x = loadPDB intimin.pdb
+saveAmberParm x intimin.parm7 intimin.rst7
+quit

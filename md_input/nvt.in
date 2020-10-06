@@ -1,0 +1,12 @@
+Intimin Generalized Born, infinite cut off
+ &cntrl
+  imin = 0, ntb = 0,
+  igb = 7, ntpr = 10000, ntwx = 10000, ntwr = 10000,
+  ntt = 3, gamma_ln = 20.0,
+  tempi = 298.0, temp0 = 298.0
+  nstlim = 400000000, dt = 0.002,
+  saltcon = 0.15,
+  irest = 1, ntx = 5,
+  ntc = 2, ntf = 2,
+  cut = 999
+ /
